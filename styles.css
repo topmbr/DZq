@@ -1,0 +1,124 @@
+table {
+    width: 80%;
+    min-width: 650px;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption {
+    text-align: right;
+    text-transform: uppercase;
+    color: #ffffff; /* Зміна кольору для заголовка "Choose your plan" */
+    font-weight: 700;
+}
+
+th {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+tr th:first-child {
+    color: white;
+}
+
+td, th {
+    text-align: center;
+    padding: 1em 0;
+}
+
+tr td:first-child {
+    text-align: left;
+    padding-left: 0.7em;
+}
+
+span {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 1.2em;
+    display: inline-block;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.col-1 {
+    background-color: #dddddd;
+    width: auto;
+}
+
+.col-2 {
+    background-color: #4f628d;
+    width: 17%;
+}
+
+.col-3 {
+    background-color: #2f4173;
+    width: 17%;
+}
+
+.col-4 {
+    background-color: #162954;
+    width: 17%;
+}
+
+.col-5 {
+    background-color: #071538;
+    width: 17%;
+}
+
+thead {
+    border-bottom: 1px solid #ebebeb;
+}
+
+tfoot {
+    border-top: 1px solid #ebebeb;
+}
+
+td[style="width: 139px; height: 60px;"] {
+    background-color: #7987aa;
+}
+
+td[style="width: 90.95px; height: 40px;"] {
+    background-color: #4f628d;
+}
+
+td[style="width: 91.05px; height: 40px;"] {
+    background-color: #2f4173;
+}
+
+td[style="width: 100px; height: 40px;"] {
+    background-color: #162954;
+}
+
+td[style="width: 113px; height: 40px;"] {
+    background-color: #071538;
+}
+
+td[style="width: 1px; height: 40px;"] {
+    background-color: #e7e7e7;
+}
+
+td[style="width: 2px; height: 40px;"] {
+    background-color: #ececec;
+}
+
+td[style="width: 3px; height: 40px;"] {
+    background-color: #f3f3f3;
+}
+
+td[style="width: 4px; height: 40px;"] {
+    background-color: #dddddd;
+}
+
+button {
+    color: #ffffff; /* Зміна кольору тексту кнопок */
+    background-color: transparent; /* Зміна кольору фону кнопок */
+    border: 2px solid #ffffff; /* Зміна кольору рамки кнопок */
+    border-radius: 5px; /* Закруглення кутів рамки кнопок */
+    padding: 5px 10px; /* Внутрішній відступ кнопок */
+    font-size: 14px;
+}
